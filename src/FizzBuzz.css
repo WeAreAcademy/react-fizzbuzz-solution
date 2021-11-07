@@ -1,0 +1,19 @@
+body {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.utterances {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.utterances div {
+  background: skyblue;
+  margin: 8px;
+  border-radius: 6px;
+  padding: 6px;
+  min-width: 20px;
+  text-align: center;
+}
